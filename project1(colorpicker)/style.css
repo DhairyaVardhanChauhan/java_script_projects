@@ -1,0 +1,98 @@
+p{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(40, 40, 40, 0.35);
+    padding:20px 20px;
+}
+
+button,.button-color-clickme{
+    border-style: none;
+    background-color: transparent;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+.button-color-clickme{
+    border: 3px solid black;
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.35s, color 0.35s;
+}
+
+.button-color-clickme:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.general-flipper-active-css{
+    color: rgb(13, 168, 220);
+}
+
+
+button:hover{
+    color: blueviolet;
+}
+
+button:active{
+    color: rgb(13, 168, 220);
+}
+
+.color-flipper-css-inactive, .hex_col_flip-css-inactive{
+    color: black;
+}
+
+
+
+.center-me{
+    display: flex;
+    align-items: center;
+    /* border-style: solid; */
+    justify-content: center;
+    height: 600px;
+    flex-direction: column;
+}
+.center-div{
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    padding:20px 80px 20px 80px;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+.title-para{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: white;
+
+}
+.color-para{
+    font-size: 40px;
+    color: rgb(35, 156, 196);
+    letter-spacing: 4px;
+}
+
+.indicator-css{
+    margin-top: 10px;
+    color: white;
+
+}
+
+
+.clown-img{
+    height: 200px;
+
+}
