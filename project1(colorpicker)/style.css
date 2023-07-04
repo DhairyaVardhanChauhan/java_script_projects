@@ -37,7 +37,7 @@ button,.button-color-clickme{
 }
 
 
-.general-flipper-active-css{
+.general-flipper-active-css,.invert-general-flipper-active-css{
     color: rgb(13, 168, 220);
 }
 
@@ -94,5 +94,4 @@ button:active{
 
 .clown-img{
     height: 200px;
-
 }

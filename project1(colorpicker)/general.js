@@ -2,7 +2,12 @@ const colors = ["green","red","rgba(133,122,200)","#f15025"];
 const hexcol = [0,1,2,3,4,5,6,7,8,9,"A","B","C","D","E","F"];
 
 function get_rand(lst){
-    return Math.floor(Math.random()*lst.length);
+    if(Array.isArray(lst)){
+        return Math.floor(Math.random()*lst.length);
+    }
+    else{
+        return Math.floor(Math.random()*lst);
+    }
 }
 
 function initiate_warning(){
@@ -18,6 +23,7 @@ function remove_prev(new_select){
         prev_on.classList.remove('general-flipper-active-css');
     }
     selected_button = new_select;
+    console.log(selected_button);
 
 }
 

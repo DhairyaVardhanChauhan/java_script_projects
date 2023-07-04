@@ -2,7 +2,7 @@ let hexflip = document.querySelector('.hex-color-flipper-js');
 hexflip.addEventListener('click',()=>{
     release_warning();  
     remove_prev("hex_button");
-    if(selected_button == "hex_button"){
+    if(selected_button === "hex_button"){
         hexflip.classList.remove("color-flipper-css-inactive");
         hexflip.classList.add("general-flipper-active-css");
     }

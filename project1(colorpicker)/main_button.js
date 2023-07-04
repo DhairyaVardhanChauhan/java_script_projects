@@ -9,16 +9,17 @@ function changebg(button){
         initiate_warning();
         return;
     }
-    if(button === "color_flipper_button"){
-        let val = get_rand(colors);
-        console.log(val);
-        document.body.style.backgroundColor = colors[val];
-        color.innerHTML = colors[val];
-    }
-    else if(button === "hex_button"){
+
+    if(button === "hex_button"){
         let selectedhex = generate_hex();
         console.log(selectedhex);
         document.body.style.backgroundColor = selectedhex;
         color.innerHTML = selectedhex;
+    }
+    else if(button === "rgb_button"){
+        let selected_rgb = generate_rgb();
+        console.log(selected_rgb);
+        document.body.style.backgroundColor = selected_rgb;
+        color.innerHTML = selected_rgb;
     }
 }
