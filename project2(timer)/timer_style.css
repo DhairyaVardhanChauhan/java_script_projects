@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 8px;
+    padding: 8px;
+}
+
+h1{
+    font-size: 54px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+.center-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 693px;
+}
+
+.decrease-css, .reset-css, .increase-css,.auto-css {
+    background-color: transparent;
+    border: 3px solid black;
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.35s, color 0.35s;
+    letter-spacing: 3px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.decrease-css:hover, .reset-css:hover, .increase-css:hover,.auto-css:hover{
+    background-color: black;
+    color: white;
+}
+.center-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+.counter-txt-css{
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.red-counter-css{
+    color: red;
+}
+
+.green-counter-css{
+    color: green;
+}
