@@ -1,0 +1,176 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 245, 255);
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 46px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 3px;
+    vertical-align: middle;
+}
+
+.center-me{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 150px;
+}
+
+.center-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-style: solid; */
+
+}   
+
+.underline-css{
+    border-bottom: 4px solid rgb(20, 157, 255);
+    border-radius: 4px;
+    margin-bottom: 6px;
+
+}
+
+.review-center{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-container{
+    padding: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 10px rgba(80, 80, 80, 0.35);
+    border-radius: 14px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 600px;
+    padding-top: 10px;
+}
+
+.review-details-css{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+}
+
+.review-image-css{
+     /* height: 140px;
+    width: 140px;
+    border-radius: 70px;
+    border-top: 2px solid blue;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-right: 6px solid blue; */
+    position: relative; 
+    z-index: 2;
+    
+}
+
+.quote-holder{
+    background-color: rgb(165, 224, 244);
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    z-index: 3;
+}
+
+.quotes-css{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    z-index: 3;
+}
+
+.background-overlay{
+    height: 140px;
+    width: 148px;
+    position: absolute;
+    background-color: rgb(0, 140, 255);
+    z-index: 0;
+    border-radius: 70px;
+}
+
+.name-para-css{
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+.designation-para-css{
+    color: rgb(64, 146, 213);
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 14px
+}
+
+.content-para-css{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.633);
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.arrows-css{
+    border-style: none;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgb(104, 205, 239);
+    background-color: white;
+    margin-left: 20px;
+    text-shadow: 4px 4px 8px;
+    transition: text-shadow 0.25s;
+}
+
+.surprise-me-btn{
+    background-color: rgb(23, 168, 216);
+    border-radius: 10px;
+    border-style: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    box-shadow: 5px 5px 8px rgba(80, 80, 80, 0.35);
+    transition: box-shadow 0.25s;
+    font-weight: bold;
+    color: white;
+}
+
+.arrows-css:active{
+    text-shadow: none;
+}
+
+.surprise-me-btn:active{
+    box-shadow: none;
+}
+
+
+
+.surprise-holder-div{
+    margin-top: 20px;
+    padding-left: 20px;
+    justify-content: center;
+}
