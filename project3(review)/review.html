@@ -1,3 +1,5 @@
+<!-- LEARNINGS:- THE CONTAINER YOU ARE CHANGING DYNAMICALLY USING A BUTTON SHOULD NOT HOLD THAT BUTTON eg: [{btn}] this button should be outside see the sceenshot to know more  -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,27 +15,37 @@
         </div>
     </div>
     <div class="review-center">
-        <div class="review-container">
-            <div class="review-image-css">
+        <div class="review-container ">
+            <div class="review-dynamic-container-js">
+
+                <div class="review-image-css">
                     <div class="quote-holder ">
                         <img class="quotes-css" src="/project3(review)/project_3_images/quote.png" alt="">
                     </div>
                     <div class="background-overlay"></div>
-                    <img src="/project3(review)/project_3_images/person-1.jpeg" alt="">
-            </div>
-            <div class="review-details-css">
-                <p class="name-para-css">Sussan smith</p>
-                <p class="designation-para-css">WEB DEVELOPER</p>
-                <p class="content-para-css">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, similique error doloremque beatae suscipit quos odit voluptatem in voluptas, expedita minus pariatur maiores! Cumque. Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
+                    <img class="person-img-js" src="/project3(review)/project_3_images/person-1.jpeg" alt="">
+                </div>
+                <div class="review-details-css">
+                    <p class="name-para-css ">Sussan smith</p>
+                    <p class="designation-para-css">WEB DEVELOPER</p>
+                    <p class="content-para-css">I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry</p>
+                </div>
+        </div>
+
+        <div class="button-div-js">
             <div class="reviw-button-css">
-                <button class="arrows-css"> &#60; </button>
-                <button class="arrows-css"> &#62; </button>
+                <button class="arrows-css move-prev-js"> &#60; </button>
+                <button class="arrows-css move-next-js"> &#62; </button>
             </div>
+
             <div class="surprise-holder-div">
-                <button class="surprise-me-btn">Surprise Me</button>
+                <button class="surprise-me-btn surprise-me-js">Surprise Me</button>
             </div>
+        </div>
+
         </div>
     </div>
 </body>
+<script src="data.js"></script>
+<script src="script.js"></script>
 </html>
