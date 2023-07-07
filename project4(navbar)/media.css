@@ -1,0 +1,21 @@
+@media (max-width:1000px){
+    .middle-nav-section{
+        display: none;
+    }
+    .right-nav-section{
+        pointer-events: all;  /*REMEMBER IF POINER EVENTS ARE NONE JS WONT WORK (ON CLICK)*/
+    }
+    .facebook-btn,.twitter-btn,.linkedin-btn{
+        display: none;
+    }
+    .ham-btn{
+        display: inline-block;
+        transition: transform 0.45s;
+    }
+
+    .navbar-container{
+        box-shadow: none;
+        background-color: white;
+    }
+    
+}
