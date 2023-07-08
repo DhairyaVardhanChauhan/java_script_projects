@@ -108,7 +108,7 @@ button:hover{
 
 .media-area-css{
     display: none;
-
+    position: absolute;
 }
 
 .triggered-css{
@@ -131,4 +131,8 @@ button:hover{
 }
 .vert-div:hover{
     background-color: rgb(70, 176, 238);
+}
+
+.main-branch-div{
+    position: relative;;
 }

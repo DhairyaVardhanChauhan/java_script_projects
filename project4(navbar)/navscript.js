@@ -17,3 +17,12 @@ hambtn.addEventListener('click',()=>{
         areabtn.classList.remove('triggered-css')
     }
 })
+
+addEventListener("resize",()=>{
+    if(window.innerWidth > 1000){
+        if(areabtn.classList.contains('triggered-css')){
+            areabtn.classList.remove('triggered-css');
+            areabtn.classList.add('media-area-css');
+        }   
+    }
+})
