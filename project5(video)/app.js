@@ -1,16 +1,23 @@
 const btn = document.querySelector('.switch-btn');
 const video =  document.querySelector('.video-container');
+const btnspan = document.querySelector('.switch');
 
 
 let toggle = false;
 btn.addEventListener('click',()=>{
     toggle = !toggle;
     if(toggle){
-        btn.classList.add('switch-active');
-        btn.classList.remove('switch');
+        btnspan.classList.add('switch-active');
+        video.pause();
     }
     else{
-        btn.classList.add('switch');
-        btn.classList.remove('switch-active');
+        btnspan.classList.remove('switch-active');
+        video.play(); 
     }
+})
+
+// preloader function
+let preload = document.querySelector(".preloader");
+window.addEventListener("load",()=>{
+    preload.classList.add('preloader-loaded');
 })
